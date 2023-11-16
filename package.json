@@ -22,7 +22,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "buildonly": "react-scripts build",
+    "build": "react-scripts --openssl-legacy-provider build",
     "custom-build": "react-scripts build  && mv build* ../backend/untitled/src/main/resources/build/",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
