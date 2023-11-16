@@ -17,7 +17,7 @@ import steve from '../images/steve.png';
 import muthoni from '../images/muthoni.png';
 import paulo from '../images/paulo.png';
 import miranda from '../images/miranda.png';
-import  toggle from '../images/toogle.svg';
+import toggle from '../images/toogle.svg';
 
 function LandingPage() {
   return (
@@ -36,7 +36,7 @@ function LandingPage() {
             location, easily accessible whenever you need them.
           </div>
 
-          <a href="">
+          <a href="/">
             <button className="get-started"> Get Started </button>
           </a>
 
@@ -45,7 +45,7 @@ function LandingPage() {
           </a>
         </div>
 
-        <img src={Dashboard_img} />
+        <img src={Dashboard_img} alt="description" />
       </div>
 
       <div className="proposition-container">
@@ -98,7 +98,7 @@ function LandingPage() {
 
       <div className="about-container">
         <div className="about-details">
-          <a href="">
+          <a href="/">
             {' '}
             <button> ABOUT VERITLY </button>
           </a>
@@ -119,17 +119,17 @@ function LandingPage() {
         </div>
 
         <div className="about-image">
-          <img src={about} />
+          <img src={about} alt="description" />
         </div>
       </div>
 
       <div className="features-container">
         <div className="features-image">
-          <img src={feature} />
+          <img src={feature} alt="description" />
         </div>
 
         <div className="features-details">
-          <a href="">
+          <a href="/">
             <button> FEATURES </button>
           </a>
           <h1> Revolutionize certificate management and creation </h1>
@@ -163,7 +163,7 @@ function LandingPage() {
             having everything in one place.
           </div>
 
-          <a href="">
+          <a href="/">
             <button className="get-started"> Get Started </button>
           </a>
 
@@ -172,11 +172,11 @@ function LandingPage() {
           </a>
         </div>
 
-        <img src={dashboard2} />
+        <img src={dashboard2} alt="description" />
       </div>
 
       <div className="team-container">
-        <a href="">
+        <a href="/">
           <button> OUR TEAM </button>
         </a>
         <div> Meet Our Team of Experts </div>
@@ -190,7 +190,7 @@ function LandingPage() {
         </div>
         <div className="team-images-container">
           <div className="team-member">
-            <img src={steve} />
+            <img src={steve} alt="description" />
             <h2>Steven De Koffi</h2>
             <h3> CMO & Co-Founder </h3>
             <p>
@@ -201,7 +201,7 @@ function LandingPage() {
           </div>
 
           <div className="team-member">
-            <img src={muthoni} />
+            <img src={muthoni} alt="description" />
             <h2>Peris Muthoni</h2>
             <h3> CTO & Co-Founder </h3>
             <p>
@@ -212,7 +212,7 @@ function LandingPage() {
           </div>
 
           <div className="team-member">
-            <img src={paulo} />
+            <img src={paulo} alt="description" />
             <h2>Paulo Ouana</h2>
             <h3> CPO & Co-Founder </h3>
             <p>
@@ -223,7 +223,7 @@ function LandingPage() {
           </div>
 
           <div className="team-member">
-            <img src={miranda} />
+            <img src={miranda} alt="description" />
             <h2>Miranda Anya</h2>
             <h3> CEO & Co-Founder </h3>
             <p>
@@ -242,94 +242,104 @@ function LandingPage() {
           We have put together some common questions people ask
         </div>
 
-        <FAQ title="What is Veritly"/>
-        <FAQ title="How secure is Veritly's platform?"/>
-        <FAQ title="How do I verify a certificate on Veritly?"/>
-        <FAQ title="What types of certificates can be issued?"/>
-        <FAQ title="How do I create a certificate on Veritly?"/>
-        <FAQ title="How can I certificates issued through Veritly ?"/>
-        <FAQ title="Can I integrate Veritly with my existing systems or platforms?"/>
-
-
+        <FAQ title="What is Veritly" />
+        <FAQ title="How secure is Veritly's platform?" />
+        <FAQ title="How do I verify a certificate on Veritly?" />
+        <FAQ title="What types of certificates can be issued?" />
+        <FAQ title="How do I create a certificate on Veritly?" />
+        <FAQ title="How can I certificates issued through Veritly ?" />
+        <FAQ title="Can I integrate Veritly with my existing systems or platforms?" />
       </div>
 
       <div className="pricing-container">
         <button>PRICING</button>
-        <div className='pricing-desc' >
-        <div> Ready to get started with Veritly?</div>
-        <div>Choose the package that suits you</div>
-        <div>  <span>Monthly  <img className="logo" src={toggle} alt="toggle-button" /> </span> 
-         <span> Annualy <button> 20%  discount </button> </span> </div>
-      
+        <div className="pricing-desc">
+          <div> Ready to get started with Veritly?</div>
+          <div>Choose the package that suits you</div>
+          <div>
+            {' '}
+            <span>
+              Monthly <img className="logo" src={toggle} alt="toggle-button" />{' '}
+            </span>
+            <span>
+              {' '}
+              Annualy <button> 20% discount </button>{' '}
+            </span>{' '}
+          </div>
         </div>
 
-
-        <div className='plans'>
-          <div className='plan'>
-            <div className='plan-header' > Starter</div> 
-            <div className='plan-text'> with all your customers via all conversation channels in one central dashboard.</div> 
-            <div className='plan-header' > $0</div> 
-            <div className='plan-text'> Per month </div>
+        <div className="plans">
+          <div className="plan">
+            <div className="plan-header"> Starter</div>
+            <div className="plan-text">
+              {' '}
+              with all your customers via all conversation channels in one
+              central dashboard.
+            </div>
+            <div className="plan-header"> $0</div>
+            <div className="plan-text"> Per month </div>
             <button> Choose this Plan </button>
             <ul>
-      <li>2GB SSD </li>
-      <li>10GB Bandwidth </li>
-      <li>  15 Email Accounts  </li>
-      <li> Unlimited Database   </li>
-      <li>  4 Subdomains  </li>
-      <li>  1 Parked Domain  </li>
-      <li> 2 Websites   </li>
-      <li> Free SSL </li>
-      <li> Softaculous </li>
-    </ul>
-
-              </div>
-              <div className='plan'>
-            <div className='plan-header' > Starter</div> 
-            <div className='plan-text'> with all your customers via all conversation channels in one central dashboard.</div> 
-            <div className='plan-header' > $0</div> 
-            <div className='plan-text'> Per month </div>
+              <li>2GB SSD </li>
+              <li>10GB Bandwidth </li>
+              <li> 15 Email Accounts </li>
+              <li> Unlimited Database </li>
+              <li> 4 Subdomains </li>
+              <li> 1 Parked Domain </li>
+              <li> 2 Websites </li>
+              <li> Free SSL </li>
+              <li> Softaculous </li>
+            </ul>
+          </div>
+          <div className="plan">
+            <div className="plan-header"> Starter</div>
+            <div className="plan-text">
+              {' '}
+              with all your customers via all conversation channels in one
+              central dashboard.
+            </div>
+            <div className="plan-header"> $0</div>
+            <div className="plan-text"> Per month </div>
             <button> Choose this Plan </button>
             <ul>
-      <li>2GB SSD </li>
-      <li>10GB Bandwidth </li>
-      <li>  15 Email Accounts  </li>
-      <li> Unlimited Database   </li>
-      <li>  4 Subdomains  </li>
-      <li>  1 Parked Domain  </li>
-      <li> 2 Websites   </li>
-      <li> Free SSL </li>
-      <li> Softaculous </li>
-    </ul>
+              <li>2GB SSD </li>
+              <li>10GB Bandwidth </li>
+              <li> 15 Email Accounts </li>
+              <li> Unlimited Database </li>
+              <li> 4 Subdomains </li>
+              <li> 1 Parked Domain </li>
+              <li> 2 Websites </li>
+              <li> Free SSL </li>
+              <li> Softaculous </li>
+            </ul>
+          </div>
 
-              </div>
-
-              <div className='plan'>
-            <div className='plan-header' > Starter</div> 
-            <div className='plan-text'> with all your customers via all conversation channels in one central dashboard.</div> 
-            <div className='plan-header' > $0</div> 
-            <div className='plan-text'> Per month </div>
+          <div className="plan">
+            <div className="plan-header"> Starter</div>
+            <div className="plan-text">
+              {' '}
+              with all your customers via all conversation channels in one
+              central dashboard.
+            </div>
+            <div className="plan-header"> $0</div>
+            <div className="plan-text"> Per month </div>
             <button> Choose this Plan </button>
             <ul>
-      <li>2GB SSD </li>
-      <li>10GB Bandwidth </li>
-      <li>  15 Email Accounts  </li>
-      <li> Unlimited Database   </li>
-      <li>  4 Subdomains  </li>
-      <li>  1 Parked Domain  </li>
-      <li> 2 Websites   </li>
-      <li> Free SSL </li>
-      <li> Softaculous </li>
-    </ul>
-
-              </div>
-         
+              <li>2GB SSD </li>
+              <li>10GB Bandwidth </li>
+              <li> 15 Email Accounts </li>
+              <li> Unlimited Database </li>
+              <li> 4 Subdomains </li>
+              <li> 1 Parked Domain </li>
+              <li> 2 Websites </li>
+              <li> Free SSL </li>
+              <li> Softaculous </li>
+            </ul>
+          </div>
         </div>
-       
       </div>
 
-      <Footer/>
-    
+      <Footer />
     </div>
   );
 }
