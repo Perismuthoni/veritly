@@ -5,6 +5,15 @@ html *{
 .App {
   text-align: center;
 }
+:root {
+  --primary-blue: #0F0049;
+  --primary-orange: #FF6A00;
+  --button-padding: 10px;
+  --button-border-radius: 5px;
+  --button-border: none;
+  --button-cursor: pointer;
+  --font-family: Poppins;
+}
 
 
 

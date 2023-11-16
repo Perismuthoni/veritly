@@ -1,22 +1,32 @@
 .navbar {
     display: flex;
-    justify-content: right;
-    align-items: right;
+    justify-content: space-between;
     background-color: inherit;
     color: Black;
     padding: 5px 20px;
+    border: 1px solid green;
+    align-items: center;
+    word-spacing: 2em;
+  font-size: 1.2em;
+  font-weight: light;
+  font-family: var(--font-family);
   }
 
-  .user_icon {
-    font-size: 24px;
-    font-weight: bold;
-    padding-right:50px ;
-  
+  .main-logo {
+    justify-content: left;
+    align-items: left;
+  }
+  .start-btn{
+    border-radius: 20px;
+    border: none;
+    background: var(--primary-orange);
+    padding: 10px;
+    margin:0 15px;
+    color: white ;
+    font-size: 0.75em;
   }
 
-  .setting-icon {
-  font-size: 24px;
-  color: #333;
-  cursor: pointer;
-  padding-top: 10px;
+a{
+  text-decoration: none;
+  color: var(--primary-blue);
 }

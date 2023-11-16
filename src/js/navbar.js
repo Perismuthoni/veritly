@@ -5,7 +5,7 @@ import veritly_logo from '../images/veritly_logo.png';
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="user_icon">
+      <div className="main-logo">
         <img className="logo" src={veritly_logo} alt="logo" />
       </div>
 
@@ -20,8 +20,8 @@ function Navbar() {
       <div className="call-to-action">
         <a href="/"> Login </a>
         <a href="/">
-          {' '}
-          <button>Get started </button>{' '}
+         
+          <button className="start-btn" >  Get started </button>
         </a>
       </div>
     </nav>
