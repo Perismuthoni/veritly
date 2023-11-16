@@ -1,0 +1,43 @@
+
+.footer{
+ width :100vw;
+ justify-content: center;
+ align-content: center;
+ align-items: center;
+
+}
+.footer-logo{
+    width: 100%;
+    margin: 0;
+    padding: 0 10%;
+    justify-content: left;
+ align-content: left;
+ align-items: left;
+ border: 1px solid red;
+}
+
+
+.quick-links{
+    display: flex;
+    margin: 0;
+    width: 100%;
+    height: max-content;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    border: 1px solid red;
+    padding: 0 10%;
+}
+.quick-links a{
+    color: gray;
+}
+.company-links,.product-links,.help-links,.download-links{
+    width: 250px;
+}
+
+
+
+ul {
+    list-style-type: none;
+  }
+  
