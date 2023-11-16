@@ -9,7 +9,7 @@
 }
 
 
- .landing_page {
+.landing_page {
   color: 'black';
   font-family: Poppins;
   justify-content: center;
@@ -124,7 +124,7 @@
   text-align: left;
 }
 
-.about-container{
+.about-container {
   display: flex;
   margin: 0;
   width: 100vw;
@@ -136,6 +136,7 @@
   padding: 0 50px;
 
 }
+
 .about-details {
   display: flex;
   flex-direction: column;
@@ -150,6 +151,7 @@
   text-align: left;
   border: 1px solid red;
 }
+
 .about-image {
   display: flex;
   flex-direction: column;
@@ -164,7 +166,8 @@
   border-radius: 10px;
   border: 1px solid red;
 }
-.about-image img{
+
+.about-image img {
   width: 90%;
   height: 100%;
   border-radius: 10px;
@@ -213,12 +216,14 @@
   border-radius: 10px;
   border: 1px solid red;
 }
-.features-image img{
+
+.features-image img {
   width: 90%;
   height: 100%;
   border-radius: 10px;
 
 }
+
 .features-details {
   display: flex;
   flex-direction: column;
@@ -268,7 +273,7 @@
 
 .team-container {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   padding: 2%;
   margin: 0;
   width: 100vw;
@@ -277,30 +282,33 @@
   background-color: whitesmoke;
 }
 
-.team-images-container{
+.team-images-container {
   display: flex;
 
 }
 
 
-.pricing-container{
+.pricing-container {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   margin: 0;
   width: 100vw;
 }
-.pricing-desc{
+
+.pricing-desc {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
 }
-.plans{
+
+.plans {
   display: flex;
   justify-content: space-evenly;
   padding: 0 10px;
   border: solid 1px red;
-  
+
 }
-.plan{
+
+.plan {
   width: 300px;
   min-height: 70vh;
   border-radius: 10px;
@@ -308,20 +316,22 @@
   text-align: left;
   padding: 10px 10px;
 }
-.plan-header{
+
+.plan-header {
   font-size: 2em;
-  font-weight:bold;
+  font-weight: bold;
   color: var(--primary-blue);
   line-height: 50px;
 }
-.plan-text{
+
+.plan-text {
   font-size: 1em;
-  font-weight:light;
+  font-weight: light;
   color: var(--primary-blue);
 
 }
 
-ul li::before{
+ul li::before {
   content: '✓';
   line-height: 40px;
 }
@@ -339,7 +349,7 @@ ul li::before{
 
 .faq-container {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   padding: 2%;
   margin: 0;
   width: 100vw;
@@ -347,17 +357,20 @@ ul li::before{
   height: max-content;
   background-color: whitesmoke;
 }
+
 .faq-button {
-width :max-content;
+  width: max-content;
 }
-.faq-header{
+
+.faq-header {
   font-size: 3em;
-  font-weight:bold;
+  font-weight: bold;
   color: var(--primary-blue);
 }
-.faq-desc{
+
+.faq-desc {
   font-size: 1.7em;
-  font-weight:100;
+  font-weight: 100;
   color: gray;
 
 }
