@@ -36,6 +36,7 @@ function LandingPage() {
             location, easily accessible whenever you need them.
           </div>
 
+          <div className="landing-buttons">
           <a href="/">
             <button className="get-started"> Get Started </button>
           </a>
@@ -43,8 +44,13 @@ function LandingPage() {
           <a href>
             <button className="watch-demo"> Watch Demo </button>{' '}
           </a>
+          </div>
+
+         
+
+
         </div>
-        <div className="" > 
+        <div className="landing-right" > 
         <img src={Dashboard_img} alt="description" />
 
         </div>

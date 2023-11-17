@@ -32,8 +32,12 @@
   padding-top: 80px;
 }
 .landing-left{
-  width : 50%;
-  border: 1px solid red;
+  width : 40%;
+  padding: 0 50px ;
+
+}
+.landing-right{
+  width : 60%;
 }
 
 .landing-header {
@@ -43,9 +47,8 @@
   line-height: 60px;
   word-wrap: break-word;
   margin-bottom: 30px;
-  padding: 0 50px ;
   text-align: left;
-  border: 1px solid red;
+
 }
 
 .landing-paragragh {
@@ -54,24 +57,25 @@
   font-weight: 400;
   margin-bottom: 50px;
   word-wrap: break-word;
-  padding: 0 50px ;
    margin-bottom: 30px;
-  border: 1px solid red;
+   text-align: left;
+}
+.landing-buttons{
+  display:flex;
+  align-items: left;
 }
 
 
 .get-started {
-  background-color: var(--primary-blue);
+  background-color: var(--primary-orange);
   color: white;
   border: 1px solid #FF6A00;
   border-radius: 60px;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding: 20px 50px;
-  gap: 10px;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 900;
+  width: 170px;
+  height: 70px;
+  font-size: 1em;
+  font-weight: bold;
+  margin-right: 30px;
 }
 
 .watch-demo {
@@ -79,13 +83,10 @@
   color: #FF6A00;
   border: 1px solid #FF6A00;
   border-radius: 60px;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding: 20px 50px;
-  gap: 10px;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 900;
+  width: 170px;
+  height: 70px;
+  font-size: 1em;
+  font-weight: bold;
 }
 
 
