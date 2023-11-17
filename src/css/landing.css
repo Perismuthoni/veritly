@@ -23,27 +23,40 @@
 
 .landing-container {
   display: flex;
-  padding: 2%;
+  justify-content: space-around;
   margin: 0;
   width: 100vw;
-  min-height: 40vw;
+  min-height: 90vh;
   height: max-content;
   background-color: #0F0049;
+  padding-top: 80px;
+}
+.landing-left{
+  width : 50%;
+  border: 1px solid red;
 }
 
 .landing-header {
   color: white;
-  font-size: 48;
-  font-weight: 700;
-  line-height: 100px;
+  font-size: 3.2em;
+  font-weight: bolder;
+  line-height: 60px;
   word-wrap: break-word;
+  margin-bottom: 30px;
+  padding: 0 50px ;
+  text-align: left;
+  border: 1px solid red;
 }
 
 .landing-paragragh {
   color: white;
-  font-size: 16;
+  font-size: 1.2em;
   font-weight: 400;
+  margin-bottom: 50px;
   word-wrap: break-word;
+  padding: 0 50px ;
+   margin-bottom: 30px;
+  border: 1px solid red;
 }
 
 

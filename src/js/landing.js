@@ -1,6 +1,5 @@
 import React from 'react';
 import FAQ from '../components/faq';
-
 import '../css/landing.css';
 import Navbar from './navbar';
 import Footer from './footer';
@@ -25,7 +24,8 @@ function LandingPage() {
       <Navbar />
 
       <div className="landing-container">
-        <div>
+
+        <div className="landing-left" >
           <div className="landing-header">
             The Future of Certificate Management and Verification.
           </div>
@@ -44,8 +44,12 @@ function LandingPage() {
             <button className="watch-demo"> Watch Demo </button>{' '}
           </a>
         </div>
-
+        <div className="" > 
         <img src={Dashboard_img} alt="description" />
+
+        </div>
+
+        
       </div>
 
       <div className="proposition-container">
