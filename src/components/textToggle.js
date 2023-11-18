@@ -1,19 +1,18 @@
 import React from 'react';
+import '../css/texttoggle.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const FAQ = (props) => {
+const textToggle = (props) => {
   //   const [toggle, setToggle] = useState(toggle);
   return (
-    <div className="faq">
-      <div>
-        <h3>{ props.title }</h3>
+    <div className="toggle">
+      <div> 
+        <div className="header" >{props.header}</div>
         <FontAwesomeIcon icon="fa-solid fa-caret-down" />
       </div>
-      <div>{props.description}</div>
-
-
+      <div className="desc" >{props.description}</div>
     </div>
   );
 };
 
-export default FAQ;
+export default textToggle;

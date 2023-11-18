@@ -1,5 +1,6 @@
 import React from 'react';
 import FAQ from '../components/faq';
+import TEXTTOGGLE from '../components/textToggle';
 import '../css/landing.css';
 import Navbar from './navbar';
 import Footer from './footer';
@@ -109,22 +110,22 @@ function LandingPage() {
       <div className="about-container">
         <div className="about-details">
           <a href="/">
-            {' '}
-            <button> ABOUT VERITLY </button>
+            <button className="about-btn" > ABOUT VERITLY </button>
           </a>
 
-          <div>
+          <div className="about-header" >
             We provide digital credentials that can be verified in seconds from
             anywhere in the world
           </div>
+          <hr/>
+           
 
-          <div>
-            <div>Our Vision</div>
+          <div className="about-elements" >
 
-            <div>
-              Combine multiple reports into a single beautiful dashboard lorem
-              ipsum a met.
-            </div>
+          <TEXTTOGGLE header="Our Vision"  description="Combine multiple reports into a single beautiful dashboard lorem ipsum a met." />
+          <TEXTTOGGLE header="Our Mission"  description="MISSION Combine multiple reports into a single beautiful dashboard lorem ipsum a met." />
+          <TEXTTOGGLE header="Our Values"  description=" VALUES multiple reports into a single beautiful dashboard lorem ipsum a met." />
+            
           </div>
         </div>
 
@@ -251,6 +252,8 @@ function LandingPage() {
         <div className="faq-desc">
           We have put together some common questions people ask
         </div>
+
+       
 
         <FAQ title="What is Veritly" />
         <FAQ title="How secure is Veritly's platform?" />
