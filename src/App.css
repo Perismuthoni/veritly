@@ -1,6 +1,9 @@
 html *{
   box-sizing: border-box;
 }
+hr{
+  background-color: #282c34;
+}
 
 .App {
   text-align: center;
