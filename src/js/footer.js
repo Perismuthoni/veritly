@@ -9,6 +9,7 @@ import play_store from '../images/google-play.png';
 function Footer() {
   return (
     <div className="footer">
+
       <div className="footer-logo">
         <img className="logo" src={veritly_logo} alt="logo" />
       </div>
@@ -66,7 +67,7 @@ function Footer() {
           </ul>
         </div>
         <div className="download-links">
-          <h2> Download </h2>
+          <h3> Download </h3>
           <p>
             Join millions of people around the world and experience the future
             of certificate management and verification
