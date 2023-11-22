@@ -25,8 +25,7 @@ function LandingPage() {
       <Navbar />
 
       <div className="landing-container">
-
-        <div className="landing-left" >
+        <div className="landing-left">
           <div className="landing-header">
             The Future of Certificate Management and Verification.
           </div>
@@ -38,25 +37,18 @@ function LandingPage() {
           </div>
 
           <div className="landing-buttons">
-          <a href="/">
-            <button className="get-started"> Get Started </button>
-          </a>
+            <a href="/">
+              <button className="get-started"> Get Started </button>
+            </a>
 
-          <a href>
-            <button className="watch-demo"> Watch Demo </button>{' '}
-          </a>
+            <a href>
+              <button className="watch-demo"> Watch Demo </button>{' '}
+            </a>
           </div>
-
-         
-
-
         </div>
-        <div className="landing-right" > 
-        <img src={Dashboard_img} alt="description" />
-
+        <div className="landing-right">
+          <img src={Dashboard_img} alt="description" />
         </div>
-
-        
       </div>
 
       <div className="proposition-container">
@@ -110,22 +102,28 @@ function LandingPage() {
       <div className="about-container">
         <div className="about-details">
           <a href="/">
-            <button className="about-btn" > ABOUT VERITLY </button>
+            <button className="about-btn"> ABOUT VERITLY </button>
           </a>
 
-          <div className="about-header" >
+          <div className="about-header">
             We provide digital credentials that can be verified in seconds from
             anywhere in the world
           </div>
-          <hr/>
-           
+          <hr />
 
-          <div className="about-elements" >
-
-          <TEXTTOGGLE header="Our Vision"  description="Combine multiple reports into a single beautiful dashboard lorem ipsum a met." />
-          <TEXTTOGGLE header="Our Mission"  description="MISSION Combine multiple reports into a single beautiful dashboard lorem ipsum a met." />
-          <TEXTTOGGLE header="Our Values"  description=" VALUES multiple reports into a single beautiful dashboard lorem ipsum a met." />
-            
+          <div className="about-elements">
+            <TEXTTOGGLE
+              header="Our Vision"
+              description="Combine multiple reports into a single beautiful dashboard lorem ipsum a met."
+            />
+            <TEXTTOGGLE
+              header="Our Mission"
+              description="MISSION Combine multiple reports into a single beautiful dashboard lorem ipsum a met."
+            />
+            <TEXTTOGGLE
+              header="Our Values"
+              description=" VALUES multiple reports into a single beautiful dashboard lorem ipsum a met."
+            />
           </div>
         </div>
 
@@ -166,7 +164,7 @@ function LandingPage() {
       </div>
 
       <div className="action-container">
-        <div className="action-text" >
+        <div className="action-text">
           <div className="action-header">Get started with Veritly today</div>
 
           <div className="action-paragragh">
@@ -183,24 +181,20 @@ function LandingPage() {
           </a>
         </div>
 
-        <div className="action-images" > 
-        <img src={dashboard2} alt="description" />
-         </div>
-
-       
+        <div className="action-images">
+          <img src={dashboard2} alt="description" />
+        </div>
       </div>
 
       <div className="team-container">
         <a href="/">
           <button> OUR TEAM </button>
         </a>
-        <div className="team-header" > Meet Our Team of Experts </div>
-        <div
-         className="team-text">
-            Our diverse and experienced team combines expertise in certificate
-            management, blockchain technology, and customer support to deliver
-            innovative solutions for digital credentialing.
-        
+        <div className="team-header"> Meet Our Team of Experts </div>
+        <div className="team-text">
+          Our diverse and experienced team combines expertise in certificate
+          management, blockchain technology, and customer support to deliver
+          innovative solutions for digital credentialing.
         </div>
         <div className="team-images-container">
           <div className="team-member">
@@ -256,18 +250,36 @@ function LandingPage() {
           We have put together some common questions people ask
         </div>
         <div className="faq-questions">
-
-        <FAQ title="What is Veritly" description=" this is the answer to Q1" />
-        <FAQ title="How secure is Veritly's platform?" description=" this is the answer to Q2" />
-        <FAQ title="How do I verify a certificate on Veritly?" description=" this is the answer to Q3" />
-        <FAQ title="What types of certificates can be issued?"  description=" this is the answer to Q4" />
-        <FAQ title="How do I create a certificate on Veritly?" description=" this is the answer to Q5"  />
-        <FAQ title="How can I certificates issued through Veritly ?" description=" this is the answer to Q6" />
-        <FAQ title="Can I integrate Veritly with my existing systems or platforms?"  description=" this is the answer to Q7" />
+          <FAQ
+            title="What is Veritly"
+            description=" this is the answer to Q1 Ready to get started with Veritly?
+            Choose the package that suits you"
+          />
+          <FAQ
+            title="How secure is Veritly's platform?"
+            description=" this is the answer to Q2"
+          />
+          <FAQ
+            title="How do I verify a certificate on Veritly?"
+            description=" this is the answer to Q3"
+          />
+          <FAQ
+            title="What types of certificates can be issued?"
+            description=" this is the answer to Q4"
+          />
+          <FAQ
+            title="How do I create a certificate on Veritly?"
+            description=" this is the answer to Q5"
+          />
+          <FAQ
+            title="How can I certificates issued through Veritly ?"
+            description=" this is the answer to Q6"
+          />
+          <FAQ
+            title="Can I integrate Veritly with my existing systems or platforms?"
+            description=" this is the answer to Q7"
+          />
         </div>
-
-       
-
       </div>
 
       <div className="pricing-container">

@@ -1,19 +1,23 @@
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React, { useState } from 'react';
 import dropdown from "../images/dropdown-icon.png";
+import '../css/faq.css';
 
 const FAQ = (props) => {
-  //   const [toggle, setToggle] = useState(toggle);
+  const [isAnswerVisible, setIsAnswerVisible] = useState(false);
+
+  const toggleAnswer = () => {
+    setIsAnswerVisible(!isAnswerVisible);
+  };
   return (
     <div className="faq">
-      <div>
-        <h3>{ props.title }</h3>
-        <img src={dropdown} alt="drop-down" />
-        <FontAwesomeIcon icon="fa-solid fa-caret-down" />
+      <div className="faq-question"> 
+       { props.title }
+        <img src={dropdown} alt="drop-down" onClick={toggleAnswer} />
+       
       </div>
-      <div>{props.description}</div>
-
-
+      {isAnswerVisible && (
+        <div className="faq-answer">{props.description}</div>
+      )}
     </div>
   );
 };
