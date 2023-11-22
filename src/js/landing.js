@@ -255,16 +255,19 @@ function LandingPage() {
         <div className="faq-desc">
           We have put together some common questions people ask
         </div>
+        <div className="faq-questions">
+
+        <FAQ title="What is Veritly" description=" this is the answer to Q1" />
+        <FAQ title="How secure is Veritly's platform?" description=" this is the answer to Q2" />
+        <FAQ title="How do I verify a certificate on Veritly?" description=" this is the answer to Q3" />
+        <FAQ title="What types of certificates can be issued?"  description=" this is the answer to Q4" />
+        <FAQ title="How do I create a certificate on Veritly?" description=" this is the answer to Q5"  />
+        <FAQ title="How can I certificates issued through Veritly ?" description=" this is the answer to Q6" />
+        <FAQ title="Can I integrate Veritly with my existing systems or platforms?"  description=" this is the answer to Q7" />
+        </div>
 
        
 
-        <FAQ title="What is Veritly" />
-        <FAQ title="How secure is Veritly's platform?" />
-        <FAQ title="How do I verify a certificate on Veritly?" />
-        <FAQ title="What types of certificates can be issued?" />
-        <FAQ title="How do I create a certificate on Veritly?" />
-        <FAQ title="How can I certificates issued through Veritly ?" />
-        <FAQ title="Can I integrate Veritly with my existing systems or platforms?" />
       </div>
 
       <div className="pricing-container">
