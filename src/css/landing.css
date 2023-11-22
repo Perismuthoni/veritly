@@ -1,5 +1,6 @@
 :root {
   --primary-blue: #0F0049;
+  --faded-blue: #0F0049(0, 0, 0, 0.5);
   --primary-orange: #FF6A00;
   --button-padding: 10px;
   --button-border-radius: 5px;
@@ -75,7 +76,7 @@
   border: 1px solid #FF6A00;
   border-radius: 60px;
   width: 170px;
-  height: 70px;
+  height: 50px;
   font-size: 1em;
   font-weight: bold;
   margin-right: 30px;
@@ -87,7 +88,7 @@
   border: 1px solid #FF6A00;
   border-radius: 60px;
   width: 170px;
-  height: 70px;
+  height: 50px;
   font-size: 1em;
   font-weight: bold;
 }
@@ -230,7 +231,6 @@
   align-items: center;
   justify-content: space-evenly;
   text-align: center;
-  border: 1px solid red;
   padding: 0 50px;
 }
 
@@ -246,7 +246,6 @@
   justify-content: right;
   align-content: right;
   border-radius: 10px;
-  border: 1px solid red;
 }
 
 .features-image img {
@@ -268,7 +267,6 @@
   align-content: center;
   border-radius: 10px;
   text-align: left;
-  border: 1px solid red;
 }
 
 .action-container {
@@ -280,26 +278,32 @@
   height: max-content;
   background-color: rgb(242, 242, 175);
 }
+.action-text{
+  width:50%;
+  text-align: left;
+  padding: 10px 100px;
+}
 
 .action-header {
   color: var(--primary-blue);
-  font-size: 48;
-  font-weight: 700;
-  line-height: 100px;
+  font-size: 3.2em;
+  font-weight: bolder;
+  line-height: 60px;
   word-wrap: break-word;
+  margin-bottom: 30px;
 }
 
 .action-paragragh {
   color: var(--primary-blue);
-  font-size: 16;
-  font-weight: 400;
+  font-size: 1em;
+  font-weight: normal;
   word-wrap: break-word;
+  margin-bottom: 40px;
 }
-
-
-
-
-
+.action-images{
+  width: 50%;
+  padding: 10px 10px;
+}
 
 
 
@@ -312,8 +316,29 @@
   min-height: 40vw;
   height: max-content;
   background-color: whitesmoke;
+  color:var(--primary-blue);
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  border: 1px solid red;
 }
-
+.team-container button{
+  width: max-content;
+  height:30px;
+  background-color: orange;
+  color: var(--primary-orange);
+}
+.team-header{
+  font-size: 3.2em;
+  font-weight:bold;
+}
+.team-text{
+  font-size: 1.5em;
+  font-weight:small;
+  width: 50%;
+  color: #0F0049(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.5);
+}
 .team-images-container {
   display: flex;
 

@@ -166,7 +166,7 @@ function LandingPage() {
       </div>
 
       <div className="action-container">
-        <div>
+        <div className="action-text" >
           <div className="action-header">Get started with Veritly today</div>
 
           <div className="action-paragragh">
@@ -183,21 +183,24 @@ function LandingPage() {
           </a>
         </div>
 
+        <div className="action-images" > 
         <img src={dashboard2} alt="description" />
+         </div>
+
+       
       </div>
 
       <div className="team-container">
         <a href="/">
           <button> OUR TEAM </button>
         </a>
-        <div> Meet Our Team of Experts </div>
-        <div>
-          {' '}
-          <p>
+        <div className="team-header" > Meet Our Team of Experts </div>
+        <div
+         className="team-text">
             Our diverse and experienced team combines expertise in certificate
             management, blockchain technology, and customer support to deliver
             innovative solutions for digital credentialing.
-          </p>
+        
         </div>
         <div className="team-images-container">
           <div className="team-member">
