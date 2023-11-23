@@ -18,6 +18,10 @@ import muthoni from '../images/muthoni.png';
 import paulo from '../images/paulo.png';
 import miranda from '../images/miranda.png';
 import toggle from '../images/toogle.svg';
+import map from '../images/map.png';
+import location from '../images/location-pin.svg';
+import phone from '../images/phone-call.svg';
+import envelope from '../images/regular_envelope.svg';
 
 function LandingPage() {
   return (
@@ -374,7 +378,25 @@ function LandingPage() {
   <button className="contact-button" > CONTACT </button>
   <div className="contact-header" > Get in Touch </div>
   <div className="contact-content"> 
-    <div className="map" > </div>
+    <div className="map" >
+      <div className="map-header" > Contact</div>
+
+      <div className='address' ><img src={location}  className='icon' /> 
+      <p  className='address-text'> Ojobo, East Legon <br/> Greater Accra, Ghana</p> 
+       </div>
+
+       <div className='address' ><img src={phone}  className='icon' /> 
+      <p  className='address-text'> +233 567 908 44</p> 
+       </div>
+
+       <div className='address' ><img src={envelope}  className='icon' /> 
+      <p  className='address-text'> info@veritly.com</p> 
+       </div>
+
+
+       </div>
+
+
     <div className="contact-form" > </div>
   </div>
 
