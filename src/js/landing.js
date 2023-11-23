@@ -370,6 +370,18 @@ function LandingPage() {
         </div>
       </div>
 
+<div className="contact-container">
+  <button className="contact-button" > CONTACT </button>
+  <div className="contact-header" > Get in Touch </div>
+  <div className="contact-content"> 
+    <div className="map" > </div>
+    <div className="contact-form" > </div>
+  </div>
+
+</div>
+
+
+
       <Footer />
     </div>
   );
